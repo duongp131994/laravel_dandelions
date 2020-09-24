@@ -8,10 +8,6 @@
  */
 
 define('LARAVEL_START', microtime(true));
-define('DANDELION_ASSET', __url);
-$post = App\Models\Post::find(1);
-
-echo url("/posts/{$post->id}");
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
